@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: red; */
+}
+.mainHeader{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: red;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    /* background-color: green; */
+    background: url('https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png');
+    background-size: 1404px 105px;
+    background-position: -462px 0;
+    margin-left: 50px;
+}
+.menus ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+.menus ul:first-child{
+    margin-left: 40px;
+
+}
+.forinpbox{
+    width: 400px;
+    height: 50px;
+    background-color: grey;
+    margin-left: 50px;
+    display: flex;
+}
+.foricon{
+    height: 100%;
+    width: 50px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    color: grey;
+    font-size: 20px;
+}
+.inpuboxtext{
+    width: 350px;
+    background-color: orange;
+    height: 100%;
+}
+.inpuboxtext input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: gray;
+}
+.seconsection{
+    width: 100%;
+    padding: 0px 30px;
+}
